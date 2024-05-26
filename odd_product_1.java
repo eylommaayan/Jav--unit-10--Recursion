@@ -21,3 +21,17 @@ public class odd_product_1 {
         
     
 }
+
+
+/**
+ * 
+ * Explanation of the code:
+Main class: includes the main function which is an entry point to the program.
+main function: calls the oddProduct function with the values 5 and 6, and prints the results.
+oddProduct function:
+Parameter n: of type int, represents the last number in the range that must calculate the product.
+Base case: If n is 1, the function will return 1, since it is the first and only odd number starting from 1.
+Recursively step to an odd number: if n is an odd number, the function will return n times the result of recursively reading with n-2.
+Recursive call for an even number: If n is an even number, the function will return the result of a recursive call with n-1.
+This function was designed so that it is efficient for relatively small numbers and performs the calculation in an optical way
+ */
