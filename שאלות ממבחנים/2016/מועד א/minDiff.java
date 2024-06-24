@@ -1,3 +1,12 @@
+/*
+ * 
+ * מועד א שאלון 481 2016
+ * 
+ * לפצל רשימה לשתי רישמות ולהחזיר את שתי הרשימות שבינהם הפרש מנימלי
+ * 
+ */
+
+
 public class minDiff {
 
     // Public method to start the recursion with initial parameters
